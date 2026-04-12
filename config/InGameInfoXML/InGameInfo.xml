@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <str>{pingicon}{darkpurple}{username}</str>
+        </line>
+        <line>
+            <str>{lightblue}FPS: </str>
+            <op>
+                <str>ge</str>
+                <var>fps</var>
+                <num>60</num>
+                <num>45</num>
+                <num>30</num>
+                <num>15</num>
+                <num>0</num>
+                <str>{green}</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+                <str/>
+            </op>
+            <var>fps</var>
+        </line>
+        <line>
+            <str>{lightblue}Day </str>
+            <op>
+                <str>ge</str>
+                <var>day</var>
+                <num>500</num>
+                <num>250</num>
+                <num>100</num>
+                <num>50</num>
+                <num>0</num>
+                <str>{red}</str>
+                <str>{gold}</str>
+                <str>{yellow}</str>
+                <str>{green}</str>
+                <str>{aqua}</str>
+                <str/>
+            </op>
+            <var>day</var>
+            <str> {darkaqua}{mctime} {white}(</str>
+            <if>
+                <var>daytime</var>
+                <str>$eDay</str>
+                <str>$8Night</str>
+            </if>
+            <str> time$f)</str>
+        </line>
+    </lines>
+</config>

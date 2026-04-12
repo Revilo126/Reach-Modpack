@@ -1,0 +1,207 @@
+{
+    "images":
+    {
+        "black": {
+            "image": "mainmenu:textures/black.png",
+            "posX": -64,
+            "posY": 0,
+            "width": 128,
+            "height": 4096,
+            "alignment": "column_top"
+        },
+        "logo":
+        {
+            "image" : "mainmenu:textures/reachlogo.png",
+            "posX" : -64,
+            "posY" : 0,
+            "width" : 128,
+            "height" : 128,
+            "alignment" : "column_logo"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.reach.singleplayer",
+            "hoverText": "menu.reach.singleplayer.hover",
+            "normalTextColor": 4882687,
+            "hoverTextColor": 6226,
+            "texture": "mainmenu:textures/buttons/button1.png",
+            "posX" : -64,
+            "posY" : 0,
+            "width" : 128,
+            "height" : 32,
+            "alignment" : "column_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.reach.multiplayer",
+            "hoverText": "menu.reach.multiplayer.hover",
+            "normalTextColor": 6739711,
+            "hoverTextColor": 18273,
+            "texture": "mainmenu:textures/buttons/button1.png",
+            "posX" : -64,
+            "posY" : 32,
+            "width" : 128,
+            "height" : 32,
+            "alignment" : "column_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "menu.reach.mods",
+            "normalTextColor": 10395294,
+            "hoverTextColor": 5066061,
+            "texture": "mainmenu:textures/buttons/button1.png",
+            "posX" : -64,
+            "posY" : 64,
+            "width" : 128,
+            "height" : 32,
+            "alignment" : "column_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.reach.options",
+            "normalTextColor": 9457663,
+            "hoverTextColor": 2752627,
+            "texture": "mainmenu:textures/buttons/button1.png",
+            "posX" : -64,
+            "posY" : 96,
+            "width" : 128,
+            "height" : 32,
+            "alignment" : "column_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.reach.quit",
+            "hoverText": "menu.reach.quit.hover",
+            "normalTextColor": 16711680,
+            "hoverTextColor": 8192000,
+            "texture": "mainmenu:textures/buttons/button1.png",
+            "posX" : -64,
+            "posY" : 160,
+            "width" : 128,
+            "height" : 32,
+            "alignment" : "column_center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "menu.reach.language",
+            "normalTextColor": 9457663,
+            "hoverTextColor": 2752627,
+            "texture": "mainmenu:textures/buttons/button1.png",
+            "posX" : -64,
+            "posY" : 128,
+            "width" : 128,
+            "height" : 32,
+            "alignment" : "column_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "alignment" : "column_center",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -55,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+
+    "alignments": {
+        "column_top": {
+            "factorWidth": 0.5,
+            "factorHeight": 0.0
+        },
+        "column_logo": {
+            "factorWidth": 0.5,
+            "factorHeight": 0.05
+        },
+        "column_center": {
+            "factorWidth": 0.5,
+            "factorHeight": 0.4
+        },
+        "column_bottom": {
+            "factorWidth": 0.5,
+            "factorHeight": 0.95
+        }
+
+    },
+
+    "other":
+    {
+        "background": {
+            "image": "",
+            "slideshow": {
+                "images": [
+                    "mainmenu:textures/backgrounds/bg1.jpg",
+                    "mainmenu:textures/backgrounds/bg2.jpg",
+                    "mainmenu:textures/backgrounds/bg3.jpg"
+                ],
+                "displayDuration": 200,
+                "fadeDuration": 20
+            }
+        }
+    }
+}

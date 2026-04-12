@@ -1,0 +1,108 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4500051490702867199,
+      "questIDLow:4": -9088256710777609798
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The crucible is a staple of GregTech 6, setting it apart from previous versions.\n\nCrucibles recipes are locked by Temperature, different materials have different tiers, the brick crucible will melt fast so always keep it in your vision.\nIn the future you\u0027ll have access to thermostats, which can help measure temperature!\n\nBurning boxes are used to generate heat (HU), this can be absorbed by machines or you, as it deals EXTREME damage when touched while hot.\n\n[warn]DO NOT TOUCH A CRUCIBLE WHILE HOT YOU WILL DIE![/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1005,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Brick Boxes",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 2150324233784936227,
+  "questIDLow:4": -7735236714829156277,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "itemClay",
+          "id:8": "minecraft:clay_ball"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 989,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.randomtools"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 991,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.randomtools"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 993,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.randomtools"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1005,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1199,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 1055,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 1855,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

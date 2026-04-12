@@ -1,0 +1,124 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 2150324233784936227,
+      "questIDLow:4": -7735236714829156277
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "These tools will help manage all machines!\n\nTheir uses:\n\nChisel: Configure cover designs, and modify molds to certain types (ingots, plate, etc.)\n\nHammer: Crush ores in the early game and useful ore prospecting.\n\nWrench: Configure machines.\n\n[note]You will learn the others along the way.[/note]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 16,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.metatool.01",
+        "tag:10": {
+          "GT.ToolStats:10": {
+            "a:2": 820,
+            "c:2": 820,
+            "j:2": 6400
+          },
+          "ench:9": {}
+        }
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "GregTech tools",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 7892532059841708305,
+  "questIDLow:4": -8457313541897123201,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 820,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.plate"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 48,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 18,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 52,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 46,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}
