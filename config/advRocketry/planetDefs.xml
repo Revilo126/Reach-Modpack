@@ -1,0 +1,73 @@
+<galaxy>
+    <star name="Ater" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0" blackHole="false">
+        <star name="Clara" temp="150" separation="40.0" />
+        <planet name="Reach" DIMID="5" customIcon="gasgiantblue">
+            <isKnown>true</isKnown>
+            <hasRings>true</hasRings>
+            <GasGiant>true</GasGiant>
+            <gas>nitrogen</gas>
+            <gas>helium</gas>
+
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>45</orbitalTheta>
+            <planet name="Nova" DIMID="0" dimMapping="" customIcon="earthlike">
+                <rotationalPeriod>24000</rotationalPeriod>
+                <gravitationalMultiplier>100</gravitationalMultiplier>
+                <atmosphereDensity>100</atmosphereDensity>
+                <orbitalDistance>90</orbitalDistance>
+                <orbitalTheta>180</orbitalTheta>
+            </planet>
+            <planet name="Alkalai" DIMID="6" customIcon="marslike">
+                <fogColor>0xeb7134</fogColor>
+                <skyColor>0xeb7134</skyColor>
+                <rotationalPeriod>12000</rotationalPeriod>
+                <gravitationalMultiplier>60</gravitationalMultiplier>
+                <atmosphereDensity>60</atmosphereDensity>
+                <orbitalDistance>45</orbitalDistance>
+                <orbitalTheta>45</orbitalTheta>
+
+                <biomeIds>213</biomeIds>
+                <fillerBlock>minecraft:netherrack</fillerBlock>
+            </planet>
+        </planet>
+
+        <planet name="Vita" DIMID="7" customIcon="marslike">
+            <fogColor>0xbf0000</fogColor>
+            <skyColor>0xbf0000</skyColor>
+            <rotationalPeriod>36000</rotationalPeriod>
+            <gravitationalMultiplier>80</gravitationalMultiplier>
+            <atmosphereDensity>250</atmosphereDensity>
+            <orbitalDistance>60</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+
+            <biomeIds>213</biomeIds>
+            <fillerBlock>minecraft:netherrack</fillerBlock>
+            <planet name="Sulf" DIMID="8" customIcon="moon">
+                <rotationalPeriod>12000</rotationalPeriod>
+                <gravitationalMultiplier>60</gravitationalMultiplier>
+                <atmosphereDensity>0</atmosphereDensity>
+                <orbitalDistance>30</orbitalDistance>
+                <orbitalTheta>45</orbitalTheta>
+
+                <biomeIds>216</biomeIds>
+                <fillerBlock>minecraft:stone</fillerBlock>
+            </planet>
+        </planet>
+        <planet name="Tungle" DIMID="9" customIcon="carbonworld">
+            <rotationalPeriod>24000</rotationalPeriod>
+            <gravitationalMultiplier>50</gravitationalMultiplier>
+            <atmosphereDensity>0</atmosphereDensity>
+            <orbitalDistance>90</orbitalDistance>
+            <orbitalTheta>230</orbitalTheta>
+
+            <biomeIds>216</biomeIds>
+            <fillerBlock>minecraft:stone</fillerBlock>
+        </planet>
+    </star>
+    <star name="Futurum" temp="100" x="90" y="90" numPlanets="0" numGasGiants="0" blackHole="true">
+        <!--TODO: Futurum System-->
+        <planet name="Adam" DIMID="10" customIcon="Venusian">
+
+        </planet>
+    </star>
+</galaxy>

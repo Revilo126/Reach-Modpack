@@ -39,10 +39,6 @@ usernamecache.json
 /config/angelica-options.json
 /config/angelica.cfg
 
-/config/xaerominimap.txt
-/config/xaeropatreon.txt
-/config/xaeroworldmap.txt
-
 *.matter
 
 *.dll
