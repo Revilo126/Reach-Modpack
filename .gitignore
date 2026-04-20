@@ -38,6 +38,8 @@ usernamecache.json
 /config/angelica-modules.cfg
 /config/angelica-options.json
 /config/angelica.cfg
+/config/shader.properties
+/config/splash.properties
 
 *.matter
 
