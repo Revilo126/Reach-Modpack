@@ -1,0 +1,69 @@
+# Quest Language file
+# Quest Format: reach.questname.name=Quest Name
+# Line Format: reach.line=Quest Line
+
+# Exordium
+
+reach.line.exordium=Exordium
+reach.line.exordium.desc=The beginning of your journey in §5Reach
+
+reach.exordium.name=Exordium
+reach.exordium.desc=Welcome to §5Reach§f, a GT6 based modpack built upon automation!\n\n[note]You can retrieve rocks by picking them up off the ground![/note]
+
+reach.basictools.name=Basic Tools
+reach.basictools.desc=In order to progress, the basic tools are necessary, vanilla tools are disabled so you must use Gregtechs.
+You can use rocks to create them./n/n[note]You can see the tool stats by looking at tooltips.[/note]
+
+reach.food.name=Food
+reach.food.desc=GregTech6 introduces a numerous amount of (processed) foods!
+
+reach.fire.name=Fire!
+reach.fire.desc=Fire is required to unlock furnaces, to acquire it at this stage requires a firestarter, which is made from dry grass.\n\n[note]To acquire dry grass check NEI[/note]
+
+reach.craftingtable.name=The Table.
+reach.craftingtable.desc=The crafting table will be your best friend throughout your playthrough!
+
+reach.furnace.name=Smeltery
+reach.furnace.desc=The furnace is essential for early game processing!/n/n[note]With Gregtech 6, the furnace has little to no use mid-late game![/note]
+
+reach.crucible.name=Brick Boxes
+reach.crucible.desc=The crucible is a staple of GregTech 6, setting it apart from previous versions./n/nCrucibles recipes are locked by Temperature, different materials have different tiers, the brick crucible will melt fast so always keep it in your vision./nIn the future you'll have access to thermostats, which can help measure temperature!/n/nBurning boxes are used to generate heat (HU), this can be absorbed by machines or you, as it deals EXTREME damage when touched while hot./n/n[warn]DO NOT TOUCH A CRUCIBLE WHILE HOT YOU WILL DIE![/warn]
+
+reach.gttools.name=GregTech tools
+reach.gttools.desc=These tools will help manage your machines!/n/nTheir uses:/n/nChisel: Configure cover designs, and modify molds to certain types (ingots, plate, etc.)/nHammer: Crush ores in the early game and useful ore prospecting./nWrench: Configure machines./n[note]You will learn the others along the way.[/note]
+
+reach.bronze.name=Bronzation
+reach.bronze.desc=Bronze is the main material and most recognisable of the Steam age, to make it is pretty simple./n/nYou'll need bronze compound, which can be made in a mixing bowl (Just brick). Which is then smelted into bronze nuggets, and then you can chuck it in the crucible for forging./n/n[note]Yes I want you to get 32 ingots.[/note]
+
+reach.molds.name=Molds of many
+reach.molds.desc=With the addition of numerous amounts of metal forms, molds can ease your life by producing specific types, from plates to screws./n/n[note]The basin allows produces whole blocks of materials.[/note]
+
+reach.forging.name=Forging
+reach.forging.desc=Anvils are useful for creating complex parts such as curved plates early on./n/n[note]The arrow in NEI shows where to strike![/note]
+
+reach.steam.name=Now you have steam!
+reach.steam.desc=With the steam boiler, you can create steam, giving access to a plethora of future technologies and automation!\n\n[note]Read the tooltips for the required amount of HU![/note]\n\n[warn]Do not overheat the boiler or it will melt!\nWhen the pressure gets too high it will explode![/warn]
+
+# Industrial Expanse
+
+reach.line.industrial=Industrial Expanse
+reach.line.industrial.desc=The Expanse lasts a while now, no longer skip and dip!/n/n[note]The Steam age will last majority of your playthrough.[/note]
+
+reach.bengine.name=The full power of steam
+reach.bengine.desc=The engine produces §7KU (Kinetic Unit)§f/t , which directly powers machines./n/n[note]KU can not be moved, it must be used directly after the conversion./n/nThe strong engine produces more than double the KU, with drawback of being expensive.[/note]
+
+reach.bturbine.name=Spin for me
+reach.bturbine.desc=The turbine is used to produce §6RU (Rotational Unit)§f/t, which in turn is used to power machines. Unlike previous versions of GregTech, steam can not be used to power machines directly./n/n[note]The difference between the turbines are the rotors used. This does affect efficiency.[/note]
+
+reach.axles.name=Axles
+reach.axles.desc=These are used for transporting §6RU§f./n/n[note]Can only be placed in one line. Turning RU is not unlocked until the squeezer![/note] 
+
+# Misc. Lines
+
+# Nuclear
+
+reach.line.nuclear.name=Nuclear Energy
+reach.line.nuclear.desc=The best source of energy!
+
+reach.nuclearcore.name=The Reactor Core
+reach.nuclearcore.desc=The base of a Reactor, required for all./n/nThe Reactor is a complex machine having multiple attributes and reading, all are explained in the Nuclear Fission Manual, however the bare minimum is here./n/n§7Rods: §fTo put rods in simply hold it and place it in one of the holes, there is many types of rods; Fuel, Absorbers, Reflectors and Moderators, the Fuel rods contain the radioactive material and start the reaction, Absorbers absorb the neutron flux (Explained Later) upon itself, Reflectors reflect the flux from rods around it back onto itself effectively doubling the output of each rod, Moderators reflect 4x the flux compared to Reflectors however give rods touching and surrounding it "Moderated" attributes, reducing it's lifetime tremendously./n/n§bCoolant: §fThe selected coolant is incredibly important when designing a reactor, determining how much coolant you need, the amount each rod gives off, and other's described in the tooltips. The most commonly used one when creating power reactors is the Industrial Coolant, being cheap (Distilled water and lapis dust) aswell as giving the most power per rod./n/n§9Neutron Flux: §fthe neutron flux (N) determines how much heat (HU) it produces, having a 1:1 ratio between the two. The flux is directly linked to the selected rods and coolant. The flux can be measured using Guiger Counters (Handheld or Sensor)./n/n§6Reactors: §fThere are commonly two types of reactors; Breeder and Power, breeders are reactors which main purpose is to facilitate breeder rods for producting materials such as Enriched Uranium, Enriched Plutonium and Enriched Naquadah/Naquadria, while Power types are to produce power for a long time and are generally more stable. It is important when designing your reactor to take in count the type you want to create as they both work differently (Rod and coolant wise)./n/n[note]It is useful to automate your entire reactor using sensors!/n/nAlways check tooltips for help.[/note]/n/n[warn]Use pincers to retrieve rods and remember to never overheat you reactor or your rods will blow up (Be thankful there is no explosion only the removal of rods)!/n/nAlso wear the Radation suit (Or universal) to not gain radiation posioning; it is very annoying![/warn]/n/n§aFor more help check out Bear's videos or the GT6 Reactor Simulator(Github)!

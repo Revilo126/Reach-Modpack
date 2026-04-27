@@ -32,6 +32,7 @@
         </planet>
 
         <planet name="Vita" DIMID="7" customIcon="marslike">
+            <isKnown>false</isKnown>
             <fogColor>0xbf0000</fogColor>
             <skyColor>0xbf0000</skyColor>
             <rotationalPeriod>36000</rotationalPeriod>
@@ -43,6 +44,7 @@
             <biomeIds>213</biomeIds>
             <fillerBlock>minecraft:netherrack</fillerBlock>
             <planet name="Sulf" DIMID="8" customIcon="moon">
+                <isKnown>false</isKnown>
                 <rotationalPeriod>12000</rotationalPeriod>
                 <gravitationalMultiplier>60</gravitationalMultiplier>
                 <atmosphereDensity>0</atmosphereDensity>
@@ -54,6 +56,7 @@
             </planet>
         </planet>
         <planet name="Tungle" DIMID="9" customIcon="carbonworld">
+            <isKnown>false</isKnown>
             <rotationalPeriod>24000</rotationalPeriod>
             <gravitationalMultiplier>50</gravitationalMultiplier>
             <atmosphereDensity>0</atmosphereDensity>
@@ -63,10 +66,17 @@
             <biomeIds>216</biomeIds>
             <fillerBlock>minecraft:stone</fillerBlock>
         </planet>
+        <planet name="Elixe" DIMID="10" customIcon="gasgiantblue">
+            <isKnown>false</isKnown>
+            <hasRings>true</hasRings>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>gas_natural_gas</gas>
     </star>
     <star name="Futurum" temp="100" x="90" y="90" numPlanets="0" numGasGiants="0" blackHole="true">
         <!--TODO: Futurum System-->
-        <planet name="Adam" DIMID="10" customIcon="Venusian">
+        <planet name="Adam" DIMID="11" customIcon="Venusian">
 
         </planet>
     </star>
