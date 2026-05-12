@@ -1,0 +1,24 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "The beginning of your journey in §5Reach",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32000,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multiitem.books",
+        "tag:10": {
+          "author:8": "GregTech Thermodynamics",
+          "book:8": "Manual_Steam",
+          "title:8": "Steam Manual"
+        }
+      },
+      "name:8": "§5T0 Exordium",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questLineIDHigh:4": 3233842597585504756,
+  "questLineIDLow:4": -7017186139362524976
+}

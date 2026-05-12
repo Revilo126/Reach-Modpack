@@ -1,0 +1,101 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 7892532059841708305,
+      "questIDLow:4": -8457313541897123201
+    },
+    "1:10": {
+      "questIDHigh:4": 4477526669679085943,
+      "questIDLow:4": -4989968783918590042
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "With the steam boiler, you can create steam, giving access to a plethora of future technologies and automation!\n\nCalcification is an important part of the boiler system, as it continues producing steam, calcium will build up, reducing it\u0027s efficiency. The only way to decalcify is by manually using a chisel.\n\n[note]You may notice when steam is inside of a tank for too long it voids itself, this is done on purpose, to teach the fact the storage of energy is a priviledge not a right.\n\nRead the tooltips for the required amount of HU![/note]\n\n[warn]Do not overheat the boiler or it will melt!\nWhen the pressure gets too high it will explode![/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1202,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
+      },
+      "isMain:1": 1,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Now you have steam!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -2621818269096984375,
+  "questIDLow:4": -8757326465278854916,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 26122,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32000,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multiitem.books",
+          "tag:10": {
+            "author:8": "GregTech Thermodynamics",
+            "book:8": "Manual_Steam",
+            "title:8": "Steam Manual"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1202,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1102,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

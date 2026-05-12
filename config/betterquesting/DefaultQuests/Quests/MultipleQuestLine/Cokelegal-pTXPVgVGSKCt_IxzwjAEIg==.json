@@ -1,0 +1,128 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 7892532059841708305,
+      "questIDLow:4": -8457313541897123201,
+      "type:1": 1
+    },
+    "1:10": {
+      "questIDHigh:4": 4477526669679085943,
+      "questIDLow:4": -4989968783918590042
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The §6Coke Oven§f is the first multiblock you can achieve in GregTech6. \nIt is a simple hollow cube with 3x3x3 dimensions, made of Fire Bricks with the controller placed center-facing forwards.\n\n[note]Requires ignition before use.\n\nTo ease the building of multiblocks, the Builder\u0027s wand can build a 3x3x3 portion of Multiblocks. \nIt doesn\u0027t build the entire structure![/note]\n\n[warn]GregTech6 Multiblocks can\u0027t wallshare![/warn]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 17000,
+        "OreDict:8": "",
+        "id:8": "gregtech:gt.multitileentity"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Coke (legal)",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -6542094915323148128,
+  "questIDLow:4": -5909694182209879006,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 8349,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.meta.gem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 17000,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        },
+        "1:10": {
+          "Count:3": 25,
+          "Damage:2": 18000,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.multitileentity"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 104,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:brick"
+        },
+        "1:10": {
+          "Count:3": 104,
+          "Damage:2": 8215,
+          "OreDict:8": "dustAnyClay",
+          "id:8": "gregtech:gt.meta.dust"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 74,
+          "OreDict:8": "",
+          "id:8": "gregtech:gt.metatool.01",
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "a:2": 8610,
+              "d:8": "AnyWoodOrPlastic",
+              "j:2": 4480
+            },
+            "ench:9": {}
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

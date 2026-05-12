@@ -1,3 +1,4 @@
-LODqtXicSfSenfJiiICA0A==: reach.line.exordium
-8MJmd62nQ0uQ9FcemxD4-Q==: reach.line.industrial
-KecDX-YwSImDDFZevqZwBA==: reach.line.nuclear.name
+LODqtXicSfSenfJiiICA0A==: T0 Exordium
+8MJmd62nQ0uQ9FcemxD4-Q==: T1 Industrial Expanse
+KecDX-YwSImDDFZevqZwBA==: Nuclear Energy
+AXwghP1mRWal_I7MmFinGg==: Multiblock Compendium

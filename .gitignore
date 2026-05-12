@@ -22,6 +22,7 @@
 /config/recipes/
 /config/AppliedEnergistics2/recipes/
 /config/NEI/
+!config/NEI/collapsibleitems.cfg
 /config/notfine/
 
 # files
