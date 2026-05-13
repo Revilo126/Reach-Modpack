@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "In order to progress, the basic tools are necessary, vanilla tools are disabled so you must use Gregtech\u0027s.\n\nYou can use rocks to create them.\n\n[note]You can see the tool stats by looking at tooltips.[/note]",
+      "desc:8": "In order to progress, the basic tools are necessary, vanilla tools are disabled so you must use §9Gregtech\u0027s§f.\n\nYou can use rocks to create them.\n\n[note]You can see the tool stats by looking at tooltips.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

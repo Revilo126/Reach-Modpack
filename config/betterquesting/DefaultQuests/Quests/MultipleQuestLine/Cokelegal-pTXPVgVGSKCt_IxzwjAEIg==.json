@@ -13,7 +13,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The §6Coke Oven§f is the first multiblock you can achieve in GregTech6. \nIt is a simple hollow cube with 3x3x3 dimensions, made of Fire Bricks with the controller placed center-facing forwards.\n\n[note]Requires ignition before use.\n\nTo ease the building of multiblocks, the Builder\u0027s wand can build a 3x3x3 portion of Multiblocks. \nIt doesn\u0027t build the entire structure![/note]\n\n[warn]GregTech6 Multiblocks can\u0027t wallshare![/warn]",
+      "desc:8": "The §6Coke Oven§f is the first multiblock you can achieve in §9GregTech 6§f. \nIt is a simple hollow cube with 3x3x3 dimensions, made of Fire Bricks with the controller placed center-facing forwards.\n\n[note]Requires ignition before use.\n\nTo ease the building of multiblocks, the Builder\u0027s wand can build a 3x3x3 portion of Multiblocks. \nIt doesn\u0027t build the entire structure![/note]\n\n[warn]GregTech6 Multiblocks can\u0027t wallshare![/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

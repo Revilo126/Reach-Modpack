@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "The crucible is a staple of GregTech 6, setting it apart from previous versions.Crucibles recipes are locked by Temperature, different materials have different tiers, the brick crucible will melt fast so always keep it in your vision.\nIn the future you\u0027ll have access to thermostats, which can help measure temperature!\n\nBurning boxes are used to generate heat (§cHU§f), this can be absorbed by machines or you, as it deals EXTREME damage when touched while hot.\n\n[warn]DO NOT TOUCH A CRUCIBLE WHILE HOT YOU WILL DIE![/warn]",
+      "desc:8": "The crucible is a staple of §9GregTech 6§f, setting it apart from previous versions. Crucibles recipes are locked by Temperature, different materials have different tiers, the brick crucible will melt fast so always keep it in your vision.\nIn the future you\u0027ll have access to Thermostats, which can help measure temperature!\n\nBurning boxes are used to generate heat (§cHU§f), this can be absorbed by machines or you, as it deals alot of damage when touched while hot.\n\n[warn]DO NOT TOUCH A CRUCIBLE WHILE HOT YOU WILL (probably) DIE![/warn]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

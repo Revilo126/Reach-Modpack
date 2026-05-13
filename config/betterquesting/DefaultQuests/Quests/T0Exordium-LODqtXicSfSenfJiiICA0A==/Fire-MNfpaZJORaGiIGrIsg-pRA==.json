@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "Fire is required to unlock furnaces, to acquire it at this stage requires a firestarter, which is made from dry grass.\n\n[note]To acquire dry grass check NEI[/note]",
+      "desc:8": "Fire is required to unlock furnaces, to acquire it at this stage requires a Fire Starter, which is made from dry grass.\n\n[note]To acquire dry grass check NEI[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,

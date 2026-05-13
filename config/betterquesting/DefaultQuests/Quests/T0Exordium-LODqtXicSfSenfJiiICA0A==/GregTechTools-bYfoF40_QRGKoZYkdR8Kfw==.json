@@ -8,7 +8,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
-      "desc:8": "These tools will help manage your machines!\n\nTheir uses:\n\nChisel: Configure cover designs, and modify molds to certain types (ingots, plate, etc.)\n\nHammer: Crush ores in the early game and useful ore prospecting.\n\nWrench: Configure machines.\n\n[note]You will learn the others along the way.[/note]",
+      "desc:8": "These tools will help manage your machines!\n\nThey are useful for crafting, managing and growing your factory, do not cheap out on materials or you will have a pain in the future creating numerous if you keep the habbit.\n\n[note]A feature you will notice is when you run out of durability, it will break into pebbles (or scrap) and give you mining fatigue for a fair while.[/note]",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
